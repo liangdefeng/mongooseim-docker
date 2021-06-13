@@ -41,11 +41,27 @@ You can modify which Erlang/OTP version is used by MongooseIM when creating a bu
 
 
 ```
-docker build --build-arg OTP_VSN=19.3.6 -f Dockerfile.builder -t mongooseim-builder:otp19.3.6 .
+docker build --build-arg OTP_VSN=20.3.8.26-1 -f Dockerfile.builder -t mongooseim-builder:otp20.3.8.26-1 .
 ```
 
-By default the builder will use Erlang/OTP 20.3.
-
+By default the builder will use Erlang/OTP 20.3. Below are the possible OTP_VSN values:
+  - 20.3.8.26-1
+  - 21.3.8.16-1
+  - 22.3.4.2-1
+  - 22.3.4.3-1
+  - 22.3.4.6-1
+  - 22.3.4.9-1
+  - 23.0.2-1
+  - 23.0.3-1
+  - 23.1-1
+  - 23.1.2-1
+  - 23.1.5-1
+  - 23.2-1
+  - 23.2.1-1
+  - 23.2.3-1
+  - 24.0-1
+  - 24.0.1-1
+  - 24.0.2-1
 
 #### Building MongooseIM
 
